@@ -1,0 +1,22 @@
+#square-container {
+    /*position: relative;*/
+}
+
+html, body {
+    background-color: white;
+}
+
+.square {
+    margin: 0.01em;
+    vertical-align: middle;
+    /* border-top: 0.25em solid black;
+    border-left: 0.25em solid black;
+    border-right: 0.25em solid lightgray;
+    border-bottom: 0.25em solid lightslategray; */
+    text-align: center;
+    font-size: 6em;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    line-height: 100px;
+}
