@@ -1,9 +1,24 @@
-#square-container {
-
-}
-
 html, body {
     background-color: white;
+}
+
+#generate-button, #roll-button, #sum-button, #reset-button {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(206, 205, 205);
+    font-size: 16px;
+}
+
+#sq {
+    width: auto !important;
+    /* height: auto !important; */
+}
+
+.buttons {
+    padding: 0.5em;
+    border: 1px solid black;
+    text-align: center;
+    background-color: green;
 }
 
 .square {
@@ -15,4 +30,9 @@ html, body {
     color: black;
     cursor: pointer;
     line-height: 100px;
+}
+
+#square-container {
+   background-color: black;
+   text-align: center;
 }

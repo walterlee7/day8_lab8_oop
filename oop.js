@@ -36,7 +36,7 @@ class Die {
     }
 }
 
-let dieButton = document.getElementById('sq-button');
+let dieButton = document.getElementById('generate-button');
 dieButton.addEventListener('click', createDie);
 
 function createDie() {
@@ -63,7 +63,14 @@ function sumDice() {
     for (let i = 0; i < dice.length; i++) {
         sum += dice[i].value;
     }
-    alert(sum);
+    alert("The sum is " + sum + ".");
+}
+
+let resetButton = document.getElementById('reset-button');
+resetButton.addEventListener('click', reset);
+
+function reset() {
+    location.reload();
 }
 
 
