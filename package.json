@@ -1,0 +1,23 @@
+{
+    "name": "day8_lab8_oop",
+    "version": "1.0.0",
+    "description": "Javascript exercise",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "gh-pages -d client"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/walterlee7/day8_lab8_oop.git"
+    },
+    "keywords": [],
+    "author": "Walter Lee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/walterlee7/day8_lab8_oop/issues"
+    },
+    "homepage": "https://github.com/walterlee7/day8_lab8_oop",
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}
