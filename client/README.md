@@ -8,3 +8,5 @@ This was a javascript exercise that:
 3. Sums the face value of the die(s).
 4. Click on a single die to re-roll it.
 5. Double-click a single die to remove it.
+
+Site link: https://walterlee7.github.io/covalencelab1/
