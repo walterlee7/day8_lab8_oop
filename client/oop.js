@@ -25,7 +25,7 @@ class Die {
         // let numb = `&#${this.value + 9855};`
 
         let numb = `&#x${this.value + 2679};`
-        console.log(numb);
+        // console.log(numb);
         this.div.innerHTML = numb;
     }
 
