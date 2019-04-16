@@ -24,7 +24,10 @@ class Die {
 
     roll() {
         this.value = Math.floor(Math.random() * (7 - 1)) + 1;
-        let numb = `&#${this.value + 9855};`
+        // let numb = `&#${this.value + 9855};`
+
+        let numb = `&#x${this.value + 2679};`
+        console.log(numb);
         this.div.innerHTML = numb;
     }
 
