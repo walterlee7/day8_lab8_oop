@@ -28,7 +28,7 @@ html, body {
     color: black;
     cursor: pointer;
     line-height: 100px;
-    min-width: 100px;
+    /* min-width: 100px; */
 }
 
 #square-container {
