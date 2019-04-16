@@ -1,4 +1,5 @@
 {
+    "homepage": "https://walterlee7.github.io/day8_lab8_oop",
     "name": "day8_lab8_oop",
     "version": "1.0.0",
     "description": "Javascript exercise",
@@ -16,7 +17,6 @@
     "bugs": {
         "url": "https://github.com/walterlee7/day8_lab8_oop/issues"
     },
-    "homepage": "https://github.com/walterlee7/day8_lab8_oop",
     "devDependencies": {
         "gh-pages": "^2.0.1"
     }
