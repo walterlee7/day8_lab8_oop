@@ -9,10 +9,6 @@ html, body {
     font-size: 16px;
 }
 
-#sq {
-    width: auto !important;
-}
-
 .buttons {
     padding: 0.5em;
     border: 1px solid black;
