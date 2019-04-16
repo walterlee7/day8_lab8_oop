@@ -8,9 +8,9 @@ class Die {
         this.div.id = 'sq';
         this.div.style.left = `${x}px`;
         this.div.style.top = `${y}px`;
-        // this.div.style.width = `${size}px`;
+        this.div.style.width = `${size}px`;
 
-        this.div.style.width = 'auto';
+        // this.div.style.width = 'auto';
         this.div.style.height = `${size}px`;
         this.div.style.backgroundColor = "white";
         this.div.addEventListener('click', () => {
