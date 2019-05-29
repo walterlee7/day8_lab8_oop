@@ -9,4 +9,3 @@ This was a javascript exercise that:
 4. Click on a single die to re-roll it.
 5. Double-click a single die to remove it.
 
-Site link: https://walterlee7.github.io/covalencelab1/
