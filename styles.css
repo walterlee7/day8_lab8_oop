@@ -5,13 +5,26 @@ html, body {
     margin: 0;
 }
 
+.title-wrapper {
+    background-color: rgb(99, 243, 16);
+    padding: 1.3em;
+    text-align: center;
+}
+
 .title {
     padding: 0.5em;
-    margin: 0;
+    border-radius: 10px;
+    font-size: 18px;
     border: 1px solid black;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgb(159, 248, 99);
+    box-shadow: rgba(0, 0, 0, 0.514) 5px 5px 5px;
+}
+
+.buttons {
+    padding: 0.8em;
     text-align: center;
-    background-color: rgb(0, 55, 128);
+    background-color: rgb(27, 228, 27);
 }
 
 #generate-button, #roll-button, #sum-button, #reset-button {
@@ -19,13 +32,8 @@ html, body {
     border-radius: 15px;
     background-color: rgb(206, 205, 205);
     font-size: 16px;
-}
-
-.buttons {
-    padding: 0.5em;
-    border: 1px solid black;
-    text-align: center;
-    background-color: green;
+    box-shadow: rgba(0, 0, 0, 0.514) 5px 5px 5px;
+    margin: 0.2em;
 }
 
 .square {
@@ -37,11 +45,9 @@ html, body {
     color: black;
     cursor: pointer;
     line-height: 100px;
-    /* min-width: 100px; */
 }
 
 #square-container {
-   background-color: black;
+   background-color: rgb(0, 0, 0);
    text-align: center;
-   /* min-width: 400px; */
 }
