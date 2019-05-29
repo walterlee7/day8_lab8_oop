@@ -8,8 +8,6 @@ class Die {
         this.div.id = 'sq';
         this.div.style.left = `${x}px`;
         this.div.style.top = `${y}px`;
-
-        // this.div.style.width = `${size}px`;
         this.div.style.width = `auto`;
         this.div.style.height = `${size}px`;
         this.div.style.backgroundColor = "white";
@@ -24,10 +22,7 @@ class Die {
 
     roll() {
         this.value = Math.floor(Math.random() * (7 - 1)) + 1;
-        // let numb = `&#${this.value + 9855};`
-
         let numb = `&#x${this.value + 2679};`
-        // console.log(numb);
         this.div.innerHTML = numb;
     }
 
